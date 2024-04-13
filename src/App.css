@@ -1,0 +1,120 @@
+/* Body styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Container styles */
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px; /* Максимальная ширина контейнера */
+  margin: auto; /* Центрирование контейнера на странице */
+}
+
+/* Book detail styles */
+.book-detail {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1; /* Увеличиваем блок при необходимости */
+}
+
+.book-detail__image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.book-detail__info {
+  margin-left: 0;
+}
+
+.book-detail__title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.book-detail__description {
+  font-size: 16px;
+}
+
+/* Books container styles */
+.books-container {
+  flex: 1; /* Увеличиваем блок при необходимости */
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  flex: 1;
+}
+
+.category-select {
+  width: 150px;
+}
+
+.search-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.total-items {
+  margin-bottom: 20px;
+}
+
+.books-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.book-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.book-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.book-card__image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.book-card__title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.book-card__authors,
+.book-card__category {
+  font-size: 14px;
+  margin: 0;
+}
